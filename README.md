@@ -6,7 +6,10 @@ Data Structure & Initial Checks
 
 <img width="647" height="160" alt="image" src="https://github.com/user-attachments/assets/0d46827d-e1a1-4b03-9bf1-8fd4e2e77824" />
 
-Prior to beginning the analysis, I conducted data cleaning and validation in MySQL to ensure NAV and IRR figures were accurate, consistent, and dashboard-ready. The SQL queries can be found "add link here and title it 'Here' "
+The SQL queries utitlized to clean, organize, inspect and perform quality checks can be found below
+  https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/PCA_Data_Cleaning_Import_Script.sql
+
+The SQL queries used to perform data validation, ensuring accuracy and consistency of the dashboard metrics, can be found here
 
 
 Executive Summary
