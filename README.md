@@ -11,12 +11,14 @@ The SQL queries utitlized to clean, organize, inspect and perform quality checks
 
 The SQL queries used to perform data validation, ensuring accuracy and consistency of the dashboard metrics, can be found here
 
+
 Executive Summary
 
 In Q1 2025, the portfolio posted a total NAV of $2.24B with an average IRR of 12.28%. Monitoring identified 21 client–fund records with quarter-over-quarter NAV changes of ±5% or more and 81 client–fund records with declining IRR, segmented by fund name and strategy (Private Equity, Credit, Venture Capital, Real Estate). Overall NAV trends were stable, with Private Equity delivering the highest average IRR, while Credit recorded the largest quarter-over-quarter IRR increase despite flat NAV performance. These results will be used to prioritize fund-level discussions with flagged clients and guide portfolio strategy reviews for the next quarter.
 
 
 <img width="1000" height="450" alt="image" src="https://github.com/user-attachments/assets/7e647cc7-cc79-4c1b-876e-61aae4c399ff" />
+
 
 
 
@@ -39,6 +41,24 @@ The strongest NAV gains were observed in the Zeta Structured Credit Fund (+7.85%
 For IRR performance, the steepest quarter-over-quarter drops occurred in the Zeta Structured Credit Fund (-23.98%, Harborview Partners), the Delta Real Estate Fund II (-21.60%, Northshore Family Office), and again the Gamma Venture Partners Fund (-21.43%, Horizon Wealth Management) — highlighting concentrated stress in these areas.
 
 <img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/c88cb1f4-29ed-4225-ad4b-f5079a943d6d" />
+
+________________________________________
+Private Equity (PE)
+
+Private Equity was the most stable strategy in Q1 2025. It posted the highest average IRR (12.48%) and saw only small changes in NAV, reinforcing its role as the portfolio’s anchor. For clients, this shows that Private Equity continues to deliver steady returns with lower volatility than other strategies, though managers should watch for delayed impacts from broader market shifts.
+________________________________________
+Credit
+
+Credit showed a mix of results in Q1 2025. The Zeta Structured Credit Fund posted the strongest NAV gain at +7.85%, while the Beta Credit Opportunities Fund fell -6.33%, highlighting variation within the strategy. Overall NAV levels stayed flat, but Credit delivered the biggest improvement in IRR (12.22% on average), supported by stronger cash flows from interest, distributions, or recoveries. This suggests Credit remains a resilient strategy, capable of generating solid yields even when NAV values do not shift much.
+________________________________________
+Real Estate
+
+Real Estate contributed the largest share of NAV ($626M) but showed mixed results. NAV levels were steady overall, but the Delta Real Estate Fund II recorded a steep IRR drop of -21.60%, which pulled down the strategy’s performance. The gap between stable NAVs and falling IRRs suggests weaker income streams or reduced forward cash flow expectations. This points to potential risks in Real Estate that will need closer monitoring as market conditions evolve.
+________________________________________
+Venture Capital (VC)
+
+Venture Capital remained the most volatile strategy in Q1 2025. The Gamma Venture Partners Fund reflected this volatility, with a +7.70% NAV gain for one client but a -6.62% NAV decline for another. On the return side, the same fund also had a -21.43% IRR drop, one of the largest in the portfolio. These swings show the high dispersion of outcomes in VC, where valuations can shift quickly based on startup performance and market conditions. For clients, this highlights the need for diversification across funds and vintages to balance risks and opportunities.
+
 
 
 
