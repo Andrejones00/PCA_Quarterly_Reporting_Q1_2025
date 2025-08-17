@@ -10,6 +10,7 @@ The SQL queries utitlized to clean, organize, inspect and perform quality checks
   https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/PCA_Data_Cleaning_Import_Script.sql
 
 The SQL queries used to perform data validation, ensuring accuracy and consistency of the dashboard metrics, can be found here
+  https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/PCA_NAV_IRR_SQL_Queries.sql
 
 
 Executive Summary
