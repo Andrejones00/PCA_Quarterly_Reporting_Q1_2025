@@ -9,7 +9,7 @@ Data Structure & Initial Checks
 The SQL queries utitlized to clean, organize, inspect and perform quality checks can be found below
   https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/PCA_Data_Cleaning_Import_Script.sql
 
-The SQL queries used to perform data validation, ensuring accuracy and consistency of the dashboard metrics, can be found here
+The SQL queries used to perform data validation, ensuring accuracy and consistency of the dashboard metrics, can be found below
   https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/PCA_NAV_IRR_SQL_Queries.sql
 
 
@@ -20,9 +20,8 @@ In Q1 2025, the portfolio posted a total NAV of $2.24B with an average IRR of 12
 
 <img width="1000" height="450" alt="image" src="https://github.com/user-attachments/assets/7e647cc7-cc79-4c1b-876e-61aae4c399ff" />
 
-
-
-
+Link to an interactive Power BI Dashboard can be found below
+https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/PCA_NAV_IRR_Quarterly_Performance_Report_Q1_2025.pbix
 
 Insisghts Deep Dive
 
@@ -63,5 +62,6 @@ Venture Capital remained the most volatile strategy in Q1 2025. The Gamma Ventur
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/a150b7b0-c805-4490-bdf0-6e5487e5cb8c" />
  <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/d7709bb2-6a33-494f-b27d-586894a79e43" />
 
+Link to Portfolio Performance Data & Analysis Workbook (Excel) can be found below
 
 
