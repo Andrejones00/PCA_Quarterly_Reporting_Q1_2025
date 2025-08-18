@@ -59,9 +59,6 @@ Venture Capital (VC)
 
 Venture Capital remained the most volatile strategy in Q1 2025. The Gamma Venture Partners Fund reflected this volatility, with a +7.70% NAV gain for one client but a -6.62% NAV decline for another. On the return side, the same fund also had a -21.43% IRR drop, one of the largest in the portfolio. These swings show the high dispersion of outcomes in VC, where valuations can shift quickly based on startup performance and market conditions. For clients, this highlights the need for diversification across funds and vintages to balance risks and opportunities.
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/a150b7b0-c805-4490-bdf0-6e5487e5cb8c" />
- <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/d7709bb2-6a33-494f-b27d-586894a79e43" />
-
 Link to Portfolio Performance Data & Analysis Workbook (Excel) can be found below
 https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/Private_Markets_Portfolio_Reporting_Q1_2024_to_Q1_2025.xlsx
 
