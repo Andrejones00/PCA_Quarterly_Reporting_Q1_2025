@@ -62,4 +62,3 @@ Venture Capital remained the most volatile strategy in Q1 2025. The Gamma Ventur
 Link to Portfolio Performance Data & Analysis Workbook (Excel) can be found below
 https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/Private_Markets_Portfolio_Reporting_Q1_2024_to_Q1_2025.xlsx
 
-
