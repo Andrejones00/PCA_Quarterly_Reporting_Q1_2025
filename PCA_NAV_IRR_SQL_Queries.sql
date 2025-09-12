@@ -280,6 +280,8 @@ WHERE current_irr < previous_irr;
 
 -- TOP 10 declining IRR for Quarter 1 2025
 
+-- Identify declining IRR for Quarter 1 2025
+
 WITH irr_trends AS (
 					SELECT
 						p.client_id,
@@ -316,8 +318,7 @@ SELECT
 FROM irr_trends
 WHERE `quarter` = 'Q1 2025'
   AND current_irr < previous_irr   
-ORDER BY irr_percent_change ASC
-LIMIT 10;
+ORDER BY irr_percent_change ASC;
 
 -- Count of Flagged Clients by Quarter for declining IRR
 
