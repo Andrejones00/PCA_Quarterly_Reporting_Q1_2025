@@ -146,20 +146,20 @@ SELECT
     c.client_Name,
     f.fund_Name,
     f.fund_strategy,
-    nav_change.`quarter`,
-    nav_change.NAV_USD,
-    nav_change.Prev_NAV,
-    ROUND((nav_change.NAV_USD - nav_change.Prev_NAV) / nav_change.Prev_NAV * 100, 2) AS NAV_Percent_Change
-FROM nav_change
+    nc.`quarter`,
+    nc.NAV_USD,
+    nc.Prev_NAV,
+    ROUND((nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV * 100, 2) AS NAV_Percent_Change
+FROM nav_change nc
 JOIN clients c 
-	ON nav_change.Client_ID = c.Client_ID
+	ON nc.Client_ID = c.Client_ID
 JOIN funds f 
-	ON nav_change.Fund_ID = f.Fund_ID
+	ON nc.Fund_ID = f.Fund_ID
 WHERE 
-    ABS((nav_change.NAV_USD - nav_change.Prev_NAV) / nav_change.Prev_NAV * 100) >= 5
+    ABS((nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV * 100) >= 5
 ORDER BY 
-	CAST(SUBSTRING_INDEX(nav_change.`quarter`, ' ', -1) AS UNSIGNED),
-	CASE SUBSTRING_INDEX(nav_change.`quarter`, ' ', 1)
+	CAST(SUBSTRING_INDEX(nc.`quarter`, ' ', -1) AS UNSIGNED),
+	CASE SUBSTRING_INDEX(nc.`quarter`, ' ', 1)
 		WHEN 'Q1' THEN 1
 		WHEN 'Q2' THEN 2
 		WHEN 'Q3' THEN 3
@@ -186,21 +186,21 @@ SELECT
     c.client_Name,
     f.fund_Name,
     f.fund_strategy,
-    nav_change.`quarter`,
-    nav_change.NAV_USD,
-    nav_change.Prev_NAV,
+    nc.`quarter`,
+    nc.NAV_USD,
+    nc.Prev_NAV,
     ROUND(
 			CASE 
-				WHEN nav_change.Prev_NAV IS NULL OR nav_change.Prev_NAV = 0 THEN NULL
-				ELSE ( (nav_change.NAV_USD - nav_change.Prev_NAV) / nav_change.Prev_NAV ) * 100
+				WHEN nc.Prev_NAV IS NULL OR nc.Prev_NAV = 0 THEN NULL
+				ELSE ( (nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV ) * 100
 			END
 		, 2) AS NAV_Percent_Change
-FROM nav_change
+FROM nav_change nc
 JOIN clients c 
-	ON nav_change.Client_ID = c.Client_ID
+	ON nc.Client_ID = c.Client_ID
 JOIN funds f 
-	ON nav_change.Fund_ID = f.Fund_ID
-WHERE nav_change.`quarter` = 'Q1 2025'
+	ON nc.Fund_ID = f.Fund_ID
+WHERE nc.`quarter` = 'Q1 2025'
 HAVING NAV_Percent_Change IS NOT NULL
 		AND ABS(NAV_Percent_Change) >= 5
 ORDER BY NAV_Percent_Change ASC;  
