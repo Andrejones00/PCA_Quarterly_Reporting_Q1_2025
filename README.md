@@ -16,16 +16,15 @@ Private Capital Analytics (PCA) is a global private markets advisory and analyti
 
 **Executive Summary**
 
-In Q1 2025, the portfolio reported a total NAV of $2.24B and an average IRR of 12.28%, reflecting broadly stable performance across strategies.
+In Q1 2025, the portfolio reported a total Net Asset Value (NAV) of $2.24 billion and an average IRR of 12.28%, indicating broadly stable performance across the four core strategies — Private Equity, Credit, Venture Capital, and Real Estate.
 
-Monitoring identified 21 client–fund relationships with quarter-over-quarter NAV changes of ±5% or more, and 81 client–fund records with declining IRR. These records have been segmented by fund and strategy (Private Equity, Credit, Venture Capital, and Real Estate) for further review.
+Monitoring flagged 21 client–fund relationships with quarter-over-quarter NAV changes of ±5% or more, and 81 client–fund records with declining IRRs versus the prior quarter. These results have been grouped by fund and strategy to support follow-up analysis and help identify where market or operational factors may be influencing returns.
 
-Overall NAV trends were steady, with Private Equity continuing to deliver the highest average IRR, supported by consistent cash flow generation and stable valuations. Credit strategies recorded the largest quarter-over-quarter IRR increase despite flat NAV movement, suggesting stronger income realization and improved portfolio yields.
+At a high level, Private Equity continued to post the highest average IRR, which could be attributed to steady cash flow generation, limited valuation volatility, or ongoing realizations within mature holdings. Credit strategies recorded the largest quarter-over-quarter improvement in IRR despite relatively flat NAVs — possibly reflecting stronger income realization, loan repricing, or improved yield capture during the period.
 
-Meanwhile, Venture Capital and Real Estate exhibited more valuation-driven fluctuations, consistent with their sensitivity to market sentiment and appraisal adjustments.
+Meanwhile, Venture Capital and Real Estate exhibited greater variability, which may be tied to periodic valuation reviews, shifts in market sentiment, or updated appraisal assumptions. The differing patterns across these strategies suggest that recent performance trends may be shaped more by timing and valuation dynamics than by fundamental changes in underlying portfolio quality.
 
-These results will be used to prioritize follow-up discussions with clients whose funds showed notable NAV or IRR shifts, and to inform strategy-level reviews ahead of next quarter’s portfolio rebalancing and reporting cycle.
-
+These findings will guide upcoming portfolio reviews and help prioritize client discussions around funds showing notable NAV or IRR movements. Additional analysis will focus on identifying whether the observed changes stem from market-related adjustments, operational developments, or timing of realized cash flows as part of next quarter’s rebalancing and reporting cycle.
 &nbsp;  
 &nbsp;  
 
