@@ -49,12 +49,12 @@ The strongest NAV gains were observed in the Zeta Structured Credit Fund (+7.85%
 &nbsp;  
 &nbsp;  
 
-<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/0a713eba-7184-4dbe-a259-1c3d28adaad8" />
+<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/eff3491b-2d36-4b4b-a2f9-09eb0f669fb9" />
 &nbsp;  
 &nbsp;  
 &nbsp; 
 
-<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/b79effb8-ac9b-4e39-8c28-2690279e524d" />
+<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/e4bf1495-00b5-4ec1-8eec-d2b079fbcea0" />
 &nbsp;  
 &nbsp;  
 &nbsp;  
@@ -63,7 +63,7 @@ For IRR performance, the steepest quarter-over-quarter drops occurred in the Zet
 &nbsp;  
 &nbsp;  
 
-<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/c88cb1f4-29ed-4225-ad4b-f5079a943d6d" />
+<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/adba0149-da25-4d22-918e-8707c917c1fb" />
 
 ________________________________________
 **Private Equity (PE)**
