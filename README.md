@@ -42,18 +42,6 @@ These results will be used to prioritize follow-up discussions with clients whos
 https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/PCA_NAV_IRR_Quarterly_Performance_Report_Q1_2025.pbix
 &nbsp;  
 
-
-**Insisghts Deep Dive**
-
-In Q1 2025, the portfolio reported a total NAV of $2.24B with an average IRR of 12.28%, reflecting broad stability across the four core strategies: Private Equity, Credit, Real Estate, and Venture Capital. Real Estate remained the largest driver of NAV, while changes across strategies were generally modest, suggesting stable portfolio valuations. On the returns side, Private Equity delivered the highest average IRR, underscoring its role as a consistent performer, while Credit posted the strongest relative improvement in IRR, signaling resilience in cash flow generation. 
-
-Performance monitoring flagged 21 client–fund records with quarter-over-quarter NAV shifts exceeding ±5% and 81 client–fund records with declining IRRs versus the prior quarter. While these alerts spanned all strategies, the underlying drivers varied.
-&nbsp;  
-&nbsp;
-&nbsp;  
-<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/fe4013b5-346a-4c93-bacb-eed80c15ac6b" />
-&nbsp;  
-
 **Significant NAV Changes**
 
 During the quarter, portfolio performance showed mixed results across strategies, with several funds delivering strong NAV appreciation while others experienced moderate valuation declines.
