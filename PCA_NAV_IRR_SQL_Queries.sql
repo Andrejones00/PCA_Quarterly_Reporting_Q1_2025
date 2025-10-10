@@ -139,8 +139,14 @@ WITH nav_change AS (
 					ORDER BY 
 						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
 						CAST(SUBSTRING(SUBSTRING_INDEX(p.`quarter`, ' ', 1), 2, 1) AS UNSIGNED)
-					) AS Prev_NAV
-					FROM performance p
+					) AS Prev_NAV,
+						p.irr,
+                         LAG(p.irr) OVER (PARTITION BY p.client_id, p.fund_id
+					ORDER BY 
+						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
+						CAST(SUBSTRING(p.`quarter`, 2, 1) AS UNSIGNED)          
+					) AS previous_irr
+				FROM performance p
 )
 SELECT 
     c.client_Name,
@@ -149,7 +155,9 @@ SELECT
     nc.`quarter`,
     nc.NAV_USD,
     nc.Prev_NAV,
-    ROUND((nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV * 100, 2) AS NAV_Percent_Change
+    ROUND((nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV * 100, 2) AS NAV_Percent_Change,
+    ROUND(nc.irr * 100, 2) AS irr,
+    ROUND(nc.previous_irr *100, 2) as previous_irr
 FROM nav_change nc
 JOIN clients c 
 	ON nc.Client_ID = c.Client_ID
@@ -166,9 +174,9 @@ ORDER BY
 		WHEN 'Q4' THEN 4
 		ELSE 9
 	END;
-
+    
 -- Identify Significant NAV Changes (NAV ±5%) Quarter 1 2025
-
+    
 WITH nav_change AS (
 					SELECT 
 						p.client_ID,
@@ -179,8 +187,14 @@ WITH nav_change AS (
 					ORDER BY 
 						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED),           
 						CAST(SUBSTRING(SUBSTRING_INDEX(p.`quarter`, ' ', 1), 2, 1) AS UNSIGNED) 
-					) AS Prev_NAV
-					FROM performance p
+					) AS Prev_NAV,
+						p.irr,
+                        LAG(p.irr) OVER (PARTITION BY p.client_id, p.fund_id
+					ORDER BY 
+						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
+						CAST(SUBSTRING(p.`quarter`, 2, 1) AS UNSIGNED)          
+					) AS previous_irr
+				FROM performance p
 )
 SELECT 
     c.client_Name,
@@ -194,7 +208,9 @@ SELECT
 				WHEN nc.Prev_NAV IS NULL OR nc.Prev_NAV = 0 THEN NULL
 				ELSE ( (nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV ) * 100
 			END
-		, 2) AS NAV_Percent_Change
+		, 2) AS NAV_Percent_Change,
+	ROUND(nc.irr * 100, 2) AS irr,
+	ROUND(nc.previous_irr *100, 2) as previous_irr
 FROM nav_change nc
 JOIN clients c 
 	ON nc.Client_ID = c.Client_ID
@@ -203,7 +219,7 @@ JOIN funds f
 WHERE nc.`quarter` = 'Q1 2025'
 HAVING NAV_Percent_Change IS NOT NULL
 		AND ABS(NAV_Percent_Change) >= 5
-ORDER BY NAV_Percent_Change ASC;  
+ORDER BY NAV_Percent_Change ASC;         
 
 -- Count of Flagged Clients by Quarter for Total NAV changes (NAV ±5%)
 
@@ -237,9 +253,8 @@ GROUP BY `quarter`
 ORDER BY 
     CAST(SUBSTRING_INDEX(`quarter`, ' ', -1) AS UNSIGNED), 
     CAST(SUBSTRING(SUBSTRING_INDEX(`quarter`, ' ', 1), 2, 1) AS UNSIGNED);
-
     
--- Identify Declining IRR Trends
+-- Identify Declining IRR 
 
 WITH irr_trends AS (
     SELECT
@@ -254,7 +269,13 @@ WITH irr_trends AS (
 	ORDER BY 
 		CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
 		CAST(SUBSTRING(p.`quarter`, 2, 1) AS UNSIGNED)          
-        ) AS previous_irr
+        ) AS previous_irr,
+        p.nav_usd,
+        LAG(p.NAV_USD) OVER (PARTITION BY p.client_ID, p.fund_ID
+					ORDER BY 
+						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
+						CAST(SUBSTRING(SUBSTRING_INDEX(p.`quarter`, ' ', 1), 2, 1) AS UNSIGNED)
+					) AS Prev_NAV
 		FROM performance p
     JOIN clients c 
 		ON p.client_id = c.client_id
@@ -274,11 +295,13 @@ SELECT
 				ELSE ((current_irr - previous_irr) / previous_irr) * 100
 			END
            
-		, 2) AS irr_percent_change
+		, 2) AS irr_percent_change,
+        nav_usd,
+        Prev_NAV
 FROM irr_trends
 WHERE current_irr < previous_irr;
 
--- Identify declining IRR for Quarter 1 2025
+-- TOP 10 declining IRR for Quarter 1 2025
 
 WITH irr_trends AS (
 					SELECT
@@ -293,7 +316,13 @@ WITH irr_trends AS (
 					ORDER BY 
 						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
 						CAST(SUBSTRING(p.`quarter`, 2, 1) AS UNSIGNED)          
-						) AS previous_irr
+						) AS previous_irr,
+                        p.nav_usd,
+                        LAG(p.NAV_USD) OVER (PARTITION BY p.client_ID, p.fund_ID
+					ORDER BY 
+						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
+						CAST(SUBSTRING(SUBSTRING_INDEX(p.`quarter`, ' ', 1), 2, 1) AS UNSIGNED)
+					) AS Prev_NAV
 						FROM performance p
     JOIN clients c 
 		ON p.client_id = c.client_id
@@ -312,11 +341,14 @@ SELECT
             WHEN previous_irr IS NULL OR previous_irr = 0 THEN NULL
             ELSE ((current_irr - previous_irr) / previous_irr) * 100
         END
-        , 2) AS irr_percent_change
+        , 2) AS irr_percent_change,
+        nav_usd,
+        Prev_NAV
 FROM irr_trends
 WHERE `quarter` = 'Q1 2025'
   AND current_irr < previous_irr   
-ORDER BY irr_percent_change ASC;
+ORDER BY irr_percent_change ASC
+LIMIT 10;
 
 -- Count of Flagged Clients by Quarter for declining IRR
 
