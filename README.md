@@ -16,7 +16,16 @@ Private Capital Analytics (PCA) is a global private markets advisory and analyti
 
 **Executive Summary**
 
-In Q1 2025, the portfolio posted a total NAV of $2.24B with an average IRR of 12.28%. Monitoring identified 21 client–fund records with quarter-over-quarter NAV changes of ±5% or more and 81 client–fund records with declining IRR, segmented by fund name and strategy (Private Equity, Credit, Venture Capital, Real Estate). Overall NAV trends were stable, with Private Equity delivering the highest average IRR, while Credit recorded the largest quarter-over-quarter IRR increase despite flat NAV performance. These results will be used to prioritize fund-level discussions with flagged clients and guide portfolio strategy reviews for the next quarter. 
+In Q1 2025, the portfolio reported a total NAV of $2.24B and an average IRR of 12.28%, reflecting broadly stable performance across strategies.
+
+Monitoring identified 21 client–fund relationships with quarter-over-quarter NAV changes of ±5% or more, and 81 client–fund records with declining IRR. These records have been segmented by fund and strategy (Private Equity, Credit, Venture Capital, and Real Estate) for further review.
+
+Overall NAV trends were steady, with Private Equity continuing to deliver the highest average IRR, supported by consistent cash flow generation and stable valuations. Credit strategies recorded the largest quarter-over-quarter IRR increase despite flat NAV movement, suggesting stronger income realization and improved portfolio yields.
+
+Meanwhile, Venture Capital and Real Estate exhibited more valuation-driven fluctuations, consistent with their sensitivity to market sentiment and appraisal adjustments.
+
+These results will be used to prioritize follow-up discussions with clients whose funds showed notable NAV or IRR shifts, and to inform strategy-level reviews ahead of next quarter’s portfolio rebalancing and reporting cycle.
+
 &nbsp;  
 &nbsp;  
 
