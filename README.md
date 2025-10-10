@@ -59,19 +59,8 @@ The Beta Credit Opportunities Fund (–6.33%, Horizon Wealth Management) showed 
 Lastly, the Delta Real Estate Fund II (–5.91%, Horizon Wealth Management) experienced lower NAV but a slight IRR improvement (8.83% → 9.58%). This may reflect consistent income distributions partially offsetting valuation markdowns, or timing differences between cash flows and updated property appraisals.
 
 Overall, these results highlight dispersion across managers within Credit, Venture Capital, and Real Estate strategies. Funds with more predictable income streams or stabilized assets (such as Zeta and Theta) appear more resilient, while those with greater reliance on market-driven valuations (like Beta and the venture portfolios) remain more exposed to short-term shifts in pricing and assumptions.
+
 The combined movements in NAV and IRR suggest that both valuation dynamics and cash-flow timing may be influencing reported results, underscoring the need for continued monitoring and deeper review of underlying portfolio activity in future periods.
-
-
-
-
-
-
-
-
-
-
-
-
 &nbsp;  
 &nbsp;  
 
@@ -87,17 +76,17 @@ The combined movements in NAV and IRR suggest that both valuation dynamics and c
 
 **Declining IRR**
 
-The largest quarter-over-quarter declines in IRR were concentrated in a few specific funds, reflecting valuation pressure and shifting market dynamics within Credit, Real Estate, and Venture strategies.
+The largest quarter-over-quarter declines in IRR were concentrated in a few funds, suggesting potential valuation pressure or timing effects within the Credit, Real Estate, and Venture strategies. While the exact drivers are unclear from NAV and IRR alone, the data points to a mix of factors such as market repricing, changes in cash-flow timing, or updated valuation assumptions.
 
-The Zeta Structured Credit Fund (–23.98%, Harborview Partners) experienced the sharpest drop, driven by a decrease in NAV as market spreads widened and income expectations were revised lower. This suggests that credit repricing and unrealized markdowns had a significant impact on quarterly performance.
+The Zeta Structured Credit Fund (–23.98%, Harborview Partners) experienced the steepest decline in IRR, accompanied by a decrease in NAV. This combination may indicate pressure from widening credit spreads, reduced coupon income, or updated model assumptions that lowered expected future returns. It is also possible that unrealized valuation adjustments or delayed income recognition contributed to the decline.
 
-The Delta Real Estate Fund II (–21.60%, Northshore Family Office) also saw a notable IRR decline as property valuations were adjusted downward amid slower transaction activity and higher capitalization rates, resulting in a lower NAV for the quarter.
+The Delta Real Estate Fund II (–21.60%, Northshore Family Office) posted a similar drop in IRR alongside lower NAV. These movements could be linked to property re-appraisals reflecting slower transaction activity, rising capitalization rates, or conservative valuation marks amid uncertain market conditions. Alternatively, timing differences in income or cash distributions could also have dampened quarterly return calculations.
 
-Interestingly, the Gamma Venture Partners Fund (–21.43%, Horizon Wealth Management) recorded a similar IRR decline despite an increase in NAV, indicating that while valuations improved this quarter, the timing and magnitude of prior distributions or realized exits reduced overall return efficiency. This pattern is often seen when unrealized gains rise but realized cash flows slow down.
+Interestingly, the Gamma Venture Partners Fund (–21.43%, Horizon Wealth Management) showed a sharp IRR decline despite an increase in NAV, which might suggest that while valuations improved, the fund generated limited realized proceeds during the period. This pattern can occur when unrealized gains rise but cash realizations slow, or when earlier distributions reduce the relative weight of new appreciation within the IRR calculation.
 
-Together, these movements highlight concentrated performance stress in select Credit, Real Estate, and Venture exposures — largely driven by a combination of market repricing, valuation adjustments, and uneven realization timing.
+Taken together, these trends imply that IRR changes may be reflecting both short-term market volatility and the timing of realized versus unrealized performance rather than fundamental deterioration in portfolio quality. The data points to possible stress pockets in Credit, Real Estate, and Venture exposures where shifts in market spreads, valuation marks, or income recognition may have had outsized quarterly effects.
 
-Overall, the decline in IRR across these funds signals that short-term market shifts and lower cash realizations weighed more heavily on performance than underlying asset growth, underscoring the need for continued monitoring of valuation trends and distribution pacing in the coming quarters.
+Overall, the declines in IRR across these funds warrant closer monitoring in upcoming periods, particularly to determine whether these are temporary adjustments tied to market conditions or early indicators of sustained changes in cash-flow performance.
 &nbsp;  
 &nbsp;  
 
