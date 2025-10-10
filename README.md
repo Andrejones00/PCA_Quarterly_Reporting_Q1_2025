@@ -45,7 +45,7 @@ Performance monitoring flagged 21 client–fund records with quarter-over-quarte
 <img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/fe4013b5-346a-4c93-bacb-eed80c15ac6b" />
 &nbsp;  
 
-**Quarterly Overview**
+**Significant NAV Changes**
 
 During the quarter, portfolio performance showed mixed results across strategies, with several funds delivering strong NAV appreciation while others experienced moderate valuation declines.
 
@@ -76,6 +76,8 @@ The combined NAV and IRR movements suggest that operational and income-driven fu
 &nbsp;  
 &nbsp;  
 &nbsp;  
+
+**Declining IRR**
 
 The largest quarter-over-quarter declines in IRR were concentrated in a few specific funds, reflecting valuation pressure and shifting market dynamics within Credit, Real Estate, and Venture strategies.
 
