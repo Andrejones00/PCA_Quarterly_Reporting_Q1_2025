@@ -45,7 +45,25 @@ Performance monitoring flagged 21 client–fund records with quarter-over-quarte
 <img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/fe4013b5-346a-4c93-bacb-eed80c15ac6b" />
 &nbsp;  
 
-The strongest NAV gains were observed in the Zeta Structured Credit Fund (+7.85%, Northshore Family Office) and the Gamma Venture Partners Fund (+7.70%, Blue Ridge Private Capital). In contrast, the Gamma Venture Partners Fund (-6.62%, Silvercrest Capital Advisors) and the Beta Credit Opportunities Fund (-6.33%, Horizon Wealth Management) posted the sharpest declines, underscoring the dispersion within Credit and Venture Capital.
+Quarterly Overview:
+
+During the quarter, portfolio performance showed mixed results across strategies, with several funds delivering strong NAV appreciation while others experienced moderate valuation declines.
+
+The Zeta Structured Credit Fund (+7.85%, Northshore Family Office) posted the strongest gain, supported by tighter credit spreads and improved loan pricing. Its IRR rose from 16.18% to 18.63%, reflecting both unrealized valuation gains and continued income generation.
+
+Similarly, the Gamma Venture Partners Fund (+7.70%, Blue Ridge Private Capital) saw higher NAV due to a revaluation of late-stage portfolio companies following new funding rounds. Its IRR increased slightly from 7.93% to 8.22%, indicating early signs of recovery in venture valuations.
+
+The Theta Core Real Estate Fund (+7.51%, Redwood Equity Group) also performed well as stabilized assets were re-appraised at higher values and rental income improved, lifting IRR from 11.62% to 13.45%.
+
+In contrast, several funds experienced NAV declines despite stable or even slightly improving IRRs. The Gamma Venture Partners Fund (–6.62%, Silvercrest Capital Advisors) was marked down due to weaker technology valuations, though its IRR rose modestly (14.30% → 14.54%) as prior realizations continued to support long-term returns.
+
+The Beta Credit Opportunities Fund (–6.33%, Horizon Wealth Management) faced valuation pressure from widening credit spreads, leading to a decline in IRR from 13.55% to 12.50%, suggesting true underperformance for the quarter.
+
+Finally, the Delta Real Estate Fund II (–5.91%, Horizon Wealth Management) experienced appraisal markdowns across several properties, but its IRR improved slightly (8.83% → 9.58%) due to steady income distributions offsetting unrealized valuation losses.
+
+Overall, these results highlight dispersion across managers within Credit, Venture Capital, and Real Estate strategies. Funds with stable income streams and operational improvements (like Zeta and Theta) saw stronger IRR gains, while those dependent on market valuations (like Beta and the venture portfolios) were more exposed to short-term volatility.
+
+The combined NAV and IRR movements suggest that operational and income-driven funds are providing resilience, while market-sensitive funds continue to reflect broader uncertainty in private valuations.
 &nbsp;  
 &nbsp;  
 
