@@ -49,7 +49,7 @@ The strongest NAV gains were observed in the Zeta Structured Credit Fund (+7.85%
 &nbsp;  
 &nbsp;  
 
-<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/3ae83da4-5e32-453a-95b3-ef03883786c7" />
+<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/0a713eba-7184-4dbe-a259-1c3d28adaad8" />
 &nbsp;  
 &nbsp;  
 &nbsp; 
