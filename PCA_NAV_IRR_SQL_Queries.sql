@@ -278,8 +278,6 @@ SELECT
 FROM irr_trends
 WHERE current_irr < previous_irr;
 
--- TOP 10 declining IRR for Quarter 1 2025
-
 -- Identify declining IRR for Quarter 1 2025
 
 WITH irr_trends AS (
