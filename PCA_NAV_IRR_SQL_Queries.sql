@@ -134,12 +134,12 @@ WITH nav_change AS (
 						p.client_ID,
 						p.fund_ID,
 						p.`quarter`,
-						p.NAV_USD,
+						p.nav_usd,
 						LAG(p.NAV_USD) OVER (PARTITION BY p.client_ID, p.fund_ID
 					ORDER BY 
 						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
 						CAST(SUBSTRING(SUBSTRING_INDEX(p.`quarter`, ' ', 1), 2, 1) AS UNSIGNED)
-					) AS Prev_NAV,
+					) AS prev_nav,
 						p.irr,
                          LAG(p.irr) OVER (PARTITION BY p.client_id, p.fund_id
 					ORDER BY 
@@ -153,9 +153,9 @@ SELECT
     f.fund_Name,
     f.fund_strategy,
     nc.`quarter`,
-    nc.NAV_USD,
-    nc.Prev_NAV,
-    ROUND((nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV * 100, 2) AS NAV_Percent_Change,
+    nc.nav_usd,
+    nc.prev_nav,
+    ROUND((nc.nav_usd - nc.prev_nav) / nc.prev_nav * 100, 2) AS nav_percent_change,
     ROUND(nc.irr * 100, 2) AS irr,
     ROUND(nc.previous_irr *100, 2) as previous_irr
 FROM nav_change nc
@@ -164,7 +164,7 @@ JOIN clients c
 JOIN funds f 
 	ON nc.Fund_ID = f.Fund_ID
 WHERE 
-    ABS((nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV * 100) >= 5
+    ABS((nc.nav_usd - nc.prev_nav) / nc.prev_nav * 100) >= 5
 ORDER BY 
 	CAST(SUBSTRING_INDEX(nc.`quarter`, ' ', -1) AS UNSIGNED),
 	CASE SUBSTRING_INDEX(nc.`quarter`, ' ', 1)
@@ -182,8 +182,8 @@ WITH nav_change AS (
 						p.client_ID,
 						p.fund_ID,
 						p.`quarter`,
-						p.NAV_USD,
-						LAG(p.NAV_USD) OVER ( PARTITION BY p.Client_ID, p.Fund_ID
+						p.nav_usd,
+						LAG(p.nav_usd) OVER ( PARTITION BY p.Client_ID, p.Fund_ID
 					ORDER BY 
 						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED),           
 						CAST(SUBSTRING(SUBSTRING_INDEX(p.`quarter`, ' ', 1), 2, 1) AS UNSIGNED) 
@@ -201,14 +201,14 @@ SELECT
     f.fund_Name,
     f.fund_strategy,
     nc.`quarter`,
-    nc.NAV_USD,
-    nc.Prev_NAV,
+    nc.nav_usd,
+    nc.prev_nav,
     ROUND(
 			CASE 
-				WHEN nc.Prev_NAV IS NULL OR nc.Prev_NAV = 0 THEN NULL
-				ELSE ( (nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV ) * 100
+				WHEN nc.prev_nav IS NULL OR nc.prev_nav = 0 THEN NULL
+				ELSE ( (nc.nav_usd - nc.prev_nav) / nc.prev_nav ) * 100
 			END
-		, 2) AS NAV_Percent_Change,
+		, 2) AS nav_percent_change,
 	ROUND(nc.irr * 100, 2) AS irr,
 	ROUND(nc.previous_irr *100, 2) as previous_irr
 FROM nav_change nc
@@ -228,12 +228,12 @@ WITH nav_change AS (
 						p.client_ID,
 						p.fund_ID,
 						p.`quarter`,
-						p.NAV_USD,
-						LAG(p.NAV_USD) OVER ( PARTITION BY p.client_ID, p.fund_ID
+						p.nav_usd,
+						LAG(p.nav_usd) OVER ( PARTITION BY p.client_ID, p.fund_ID
 					ORDER BY 
 						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
 						CAST(SUBSTRING(SUBSTRING_INDEX(p.`quarter`, ' ', 1), 2, 1) AS UNSIGNED)
-						) AS Prev_NAV
+						) AS prev_nav
 						FROM performance p
 ),
 flagged_clients AS (
@@ -242,8 +242,8 @@ flagged_clients AS (
 						nc.`quarter`
 					FROM nav_change nc
 					WHERE 
-						nc.Prev_NAV IS NOT NULL AND
-						ABS((nc.NAV_USD - nc.Prev_NAV) / nc.Prev_NAV * 100) >= 5
+						nc.prev_nav IS NOT NULL AND
+						ABS((nc.nav_usd - nc.prev_nav) / nc.prev_nav * 100) >= 5
 )
 SELECT 
     `quarter`,
@@ -271,11 +271,11 @@ WITH irr_trends AS (
 		CAST(SUBSTRING(p.`quarter`, 2, 1) AS UNSIGNED)          
         ) AS previous_irr,
         p.nav_usd,
-        LAG(p.NAV_USD) OVER (PARTITION BY p.client_ID, p.fund_ID
+        LAG(p.nav_usd) OVER (PARTITION BY p.client_ID, p.fund_ID
 					ORDER BY 
 						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
 						CAST(SUBSTRING(SUBSTRING_INDEX(p.`quarter`, ' ', 1), 2, 1) AS UNSIGNED)
-					) AS Prev_NAV
+					) AS prev_nav
 		FROM performance p
     JOIN clients c 
 		ON p.client_id = c.client_id
@@ -297,7 +297,7 @@ SELECT
            
 		, 2) AS irr_percent_change,
         nav_usd,
-        Prev_NAV
+        prev_nav
 FROM irr_trends
 WHERE current_irr < previous_irr;
 
@@ -318,11 +318,11 @@ WITH irr_trends AS (
 						CAST(SUBSTRING(p.`quarter`, 2, 1) AS UNSIGNED)          
 						) AS previous_irr,
                         p.nav_usd,
-                        LAG(p.NAV_USD) OVER (PARTITION BY p.client_ID, p.fund_ID
+                        LAG(p.nav_usd) OVER (PARTITION BY p.client_ID, p.fund_ID
 					ORDER BY 
 						CAST(SUBSTRING_INDEX(p.`quarter`, ' ', -1) AS UNSIGNED), 
 						CAST(SUBSTRING(SUBSTRING_INDEX(p.`quarter`, ' ', 1), 2, 1) AS UNSIGNED)
-					) AS Prev_NAV
+					) AS prev_nav
 						FROM performance p
     JOIN clients c 
 		ON p.client_id = c.client_id
@@ -343,7 +343,7 @@ SELECT
         END
         , 2) AS irr_percent_change,
         nav_usd,
-        Prev_NAV
+        prev_nav
 FROM irr_trends
 WHERE `quarter` = 'Q1 2025'
   AND current_irr < previous_irr   
