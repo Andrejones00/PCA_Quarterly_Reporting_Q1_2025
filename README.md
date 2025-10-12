@@ -83,7 +83,7 @@ The Delta Real Estate Fund II (–21.60%, Northshore Family Office) posted a sim
 
 Interestingly, the Gamma Venture Partners Fund (–21.43%, Horizon Wealth Management) showed a sharp IRR decline despite an increase in NAV, which might suggest that while valuations improved, the fund generated limited realized proceeds during the period. This pattern can occur when unrealized gains rise but cash realizations slow, or when earlier distributions reduce the relative weight of new appreciation within the IRR calculation.
 
-Taken together, these trends imply that IRR changes may be reflecting both short-term market volatility and the timing of realized versus unrealized performance rather than fundamental deterioration in portfolio quality. The data points to possible stress pockets in Credit, Real Estate, and Venture exposures where shifts in market spreads, valuation marks, or income recognition may have had outsized quarterly effects.
+Overall, the changes in IRR likely reflect a mix of short-term market swings and the timing of realized versus unrealized gains, rather than a true decline in portfolio quality. The results suggest that some Credit, Real Estate, and Venture holdings faced temporary pressure from changing market spreads, valuation adjustments, or delayed income, which had a larger-than-usual impact this quarter.
 
 Overall, the declines in IRR across these funds warrant closer monitoring in upcoming periods, particularly to determine whether these are temporary adjustments tied to market conditions or early indicators of sustained changes in cash-flow performance.
 &nbsp;  
