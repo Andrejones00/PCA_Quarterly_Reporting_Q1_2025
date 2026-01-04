@@ -7,11 +7,11 @@
 6.	Declining IRR Analysis
 7.	Strategy-Level Performance Review
 8.	Excel Portfolio Performance & Analysis Workbook
-
+________________________________________
 **Background & Overview**
 
 **Private Capital Analytics (PCA)** is a global private markets advisory and analytics firm specializing in custom investment solutions, performance reporting, and portfolio analysis for institutional investors such as pension funds, endowments, and foundations. I’m working with the Investment Performance & Reporting Team to build a standardized quarterly performance report summarizing client portfolio NAV and IRR across all fund strategies. The goal is to flag declining IRR trends and significant NAV changes to support upcoming client meetings and internal performance reviews.
-
+________________________________________
 **Data Structure & Initial Checks**
 
 <img width="647" height="160" alt="image" src="https://github.com/user-attachments/assets/0d46827d-e1a1-4b03-9bf1-8fd4e2e77824" /> &nbsp;  
@@ -22,8 +22,7 @@
 
 *The **SQL queries** used to perform data validation, ensuring accuracy and consistency of the dashboard metrics, can be found below*
   https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/PCA_NAV_IRR_SQL_Queries.sql
-
-
+________________________________________
 **Executive Summary**
 
 In Q1 2025, the portfolio’s total **Net Asset Value (NAV)** remained stable at approximately **$2.24 billion**, unchanged from Q1 2024. **Average IRR** was **12.28%**, down slightly from 12.30% in Q4 2024 and broadly in line with the five-quarter average. Overall, performance reflects a stable portfolio with only modest movements in value and returns across the four primary strategies—**Private Equity, Credit, Real Estate, and Venture Capital**. At the strategy level, Private Equity continued to deliver the strongest IRR, likely supported by consistent exit activity and stable valuations, while Credit posted the largest IRR improvement despite flat NAVs, potentially driven by improved loan yields or interest income. Venture Capital and Real Estate exhibited more quarter-to-quarter variability, consistent with appraisal cycles and changing market sentiment.
@@ -40,11 +39,10 @@ During Q1 2025 monitoring, **21 client–fund** relationships were flagged for N
 &nbsp;  
 &nbsp;  
 
-
 *Link to an interactive **Power BI Dashboard** can be found below*
 https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/PCA_NAV_IRR_Quarterly_Performance_Report_Q1_2025.pbix
 &nbsp;  
-
+________________________________________
 **Significant NAV Changes**
 
 The **Zeta Structured Credit Fund (Northshore Family Office)** posted the strongest NAV increase this quarter of **7.85%**, with IRR improving from **16.18% to 18.63%**, suggesting an enhancement in both portfolio valuation and projected return efficiency. The improvement is consistent with potential spread tightening, higher coupon income, or improving borrower performance across the portfolio. Given the mark-to-market nature of structured credit valuations, a portion of the NAV uplift may reflect temporary market-driven repricing rather than realized gains. As a result, monitoring subsequent distribution activity and underlying credit fundamentals will be important in assessing whether the performance represents a durable improvement or short-term valuation volatility.
@@ -71,7 +69,9 @@ Overall, the quarter reflects a mix of valuation-driven movements and cash-flow 
 <img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/e4bf1495-00b5-4ec1-8eec-d2b079fbcea0" />
 &nbsp;  
 &nbsp;  
-&nbsp;  
+&nbsp;
+
+________________________________________
 
 **Declining IRR**
 
@@ -94,7 +94,7 @@ Private Equity NAV remains remarkably stable, with only small quarter-over-quart
 
 Private Equity also continues to deliver the highest IRR across all strategies, peaking in Q2 and Q4 2024 before moderating slightly in Q1 2025. The limited volatility in IRR suggests a mature return profile where value creation is being steadily converted into cash. The modest IRR softening in Q1 2025 is most likely related to exit timing rather than any change in underlying performance or asset quality.
 
-Overall takeaway: Flat NAV combined with consistently strong IRR indicates realized performance strength, with quarter-to-quarter changes driven primarily by exit timing rather than valuation risk.
+**Overall takeaway:** Flat NAV combined with consistently strong IRR indicates realized performance strength, with quarter-to-quarter changes driven primarily by exit timing rather than valuation risk.
 ________________________________________
 **Credit**
 
@@ -102,7 +102,7 @@ Credit NAV trends modestly upward through Q3 2024 before flattening into Q1 2025
 
 IRR shows more quarter-to-quarter movement than NAV, with an increase in Q2 2024, a dip in Q3–Q4, and a rebound in Q1 2025. These fluctuations are likely driven by coupon income timing, repayment schedules, and short-term spread changes, rather than deterioration in borrower fundamentals. In credit strategies, IRR can shift meaningfully even when NAV remains stable.
 
-Overall takeaway: Flat NAV paired with a moving IRR points to cash-flow timing and income recognition effects, not valuation stress or credit quality issues.
+**Overall takeaway:** Flat NAV paired with a moving IRR points to cash-flow timing and income recognition effects, not valuation stress or credit quality issues.
 ________________________________________
 **Real Estate**
 
@@ -110,7 +110,7 @@ Real Estate continues to represent the largest share of total NAV and remains on
 
 IRR trends closely alongside NAV but shows slightly more sensitivity to cash-flow timing. IRRs rose through mid-2024, peaked in Q4, and softened modestly in Q1 2025, which aligns with an income-driven return profile. In real estate, IRR often responds to when rental income or distributions are received, while NAV reflects periodic appraisal updates. The Q1 2025 IRR softening alongside relatively stable NAV suggests timing effects rather than weakening property fundamentals.
 
-Overall takeaway: Real Estate performance appears stable and supported by steady income. NAV movements are driven mainly by valuation mechanics, while IRR changes reflect cash-flow timing, not structural weakness.
+**Overall takeaway:** Real Estate performance appears stable and supported by steady income. NAV movements are driven mainly by valuation mechanics, while IRR changes reflect cash-flow timing, not structural weakness.
 ________________________________________
 **Venture Capital (VC)**
 
@@ -118,7 +118,7 @@ Venture Capital shows more variability than Private Equity, but overall NAV move
 
 IRR, however, is the lowest and most volatile among the strategies. It declined through Q3 2024, briefly recovered in Q4, and softened again in Q1 2025. This pattern is typical for Venture Capital, where IRR is highly dependent on the timing of liquidity events. Even when NAV is stable or increasing, IRR can move sharply if exits are delayed or uneven.
 
-Overall takeaway: Stable NAV alongside volatile IRR reflects unrealized value accumulation without corresponding liquidity. VC performance remains dependent on exit timing rather than ongoing valuation changes.
-
+**Overall takeaway:** Stable NAV alongside volatile IRR reflects unrealized value accumulation without corresponding liquidity. VC performance remains dependent on exit timing rather than ongoing valuation changes.
+________________________________________
 *Link to **Portfolio Performance Data & Analysis Workbook** (Excel) can be found below*
 https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/Private_Markets_Portfolio_Reporting_Q1_2024_to_Q1_2025.xlsx
