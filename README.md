@@ -90,19 +90,35 @@ Overall, funds experiencing sharp IRR declines reflect a range of underlying dyn
 ________________________________________
 **Private Equity (PE)**
 
-Private Equity remained the most stable strategy in Q1 2025, posting the highest average IRR of 12.48% and showing only small changes in NAV. This steady trend suggests that returns may have been supported by consistent realizations, stable valuations, or ongoing income distributions. It is also possible that updated valuation assumptions or slower exit activity limited movement in quarterly results. Overall, Private Equity continues to act as the portfolio’s anchor, though managers may want to watch for delayed effects from market conditions or shifts in exit timing that could appear in later quarters.
+Private Equity NAV remains remarkably stable, with only small quarter-over-quarter movements. Minor dips and recoveries likely reflect the offsetting effects of realizations, new investments, and routine valuation updates. This stability reinforces Private Equity’s role as a core anchor within the portfolio, supported by mature assets and consistent exit activity.
+
+Private Equity also continues to deliver the highest IRR across all strategies, peaking in Q2 and Q4 2024 before moderating slightly in Q1 2025. The limited volatility in IRR suggests a mature return profile where value creation is being steadily converted into cash. The modest IRR softening in Q1 2025 is most likely related to exit timing rather than any change in underlying performance or asset quality.
+
+Overall takeaway: Flat NAV combined with consistently strong IRR indicates realized performance strength, with quarter-to-quarter changes driven primarily by exit timing rather than valuation risk.
 ________________________________________
 **Credit**
 
-Credit performance was mixed in Q1 2025. The Zeta Structured Credit Fund recorded the strongest NAV gain (+7.85%), while the Beta Credit Opportunities Fund fell (–6.33%), showing wide variation within the strategy. While total NAV across Credit stayed flat, the strategy saw the largest IRR improvement, averaging 12.22%. This may be linked to stronger cash flows from interest, loan repayments, or distributions, but could also reflect timing differences in recognizing income or valuation changes as credit markets adjusted. The mixed results suggest that Credit remains a resilient strategy overall, though individual funds may continue to react differently to spread movements, portfolio quality, or valuation timing.
+Credit NAV trends modestly upward through Q3 2024 before flattening into Q1 2025. This behavior is consistent with an income-oriented strategy, where NAV changes tend to be muted and influenced by spread movements, repayments, and mark-to-market adjustments. The lack of sharp NAV declines suggests that overall credit quality remains intact.
+
+IRR shows more quarter-to-quarter movement than NAV, with an increase in Q2 2024, a dip in Q3–Q4, and a rebound in Q1 2025. These fluctuations are likely driven by coupon income timing, repayment schedules, and short-term spread changes, rather than deterioration in borrower fundamentals. In credit strategies, IRR can shift meaningfully even when NAV remains stable.
+
+Overall takeaway: Flat NAV paired with a moving IRR points to cash-flow timing and income recognition effects, not valuation stress or credit quality issues.
 ________________________________________
 **Real Estate**
 
-Real Estate contributed the largest share of portfolio NAV ($626M) and remained mostly stable overall, but results varied by fund. The Delta Real Estate Fund II showed a steep IRR decline of –21.60%, which weighed on the strategy’s overall performance. The combination of stable NAVs and falling IRRs could point to slower income realization, updated property appraisals, or changes in expected future cash flows. It may also reflect differences in valuation timing or rent collection patterns across holdings. While Real Estate continues to anchor a large share of portfolio value, these trends suggest potential pressure on return generation that should be monitored as market and interest-rate conditions evolve.
+Real Estate continues to represent the largest share of total NAV and remains one of the most stable strategies in the portfolio. The dip in Q2 2024, followed by a gradual recovery into Q4 2024 and a slight pullback in Q1 2025, is consistent with appraisal timing and cap rate adjustments, rather than any deterioration in property operations. The absence of sharp NAV swings suggests that the underlying properties continue to provide a stable value base, even as market pricing assumptions shift quarter to quarter.
+
+IRR trends closely alongside NAV but shows slightly more sensitivity to cash-flow timing. IRRs rose through mid-2024, peaked in Q4, and softened modestly in Q1 2025, which aligns with an income-driven return profile. In real estate, IRR often responds to when rental income or distributions are received, while NAV reflects periodic appraisal updates. The Q1 2025 IRR softening alongside relatively stable NAV suggests timing effects rather than weakening property fundamentals.
+
+Overall takeaway: Real Estate performance appears stable and supported by steady income. NAV movements are driven mainly by valuation mechanics, while IRR changes reflect cash-flow timing, not structural weakness.
 ________________________________________
 **Venture Capital (VC)**
 
-Venture Capital remained the most volatile strategy in Q1 2025. The Gamma Venture Partners Fund demonstrated this dispersion, with one client reporting a +7.70% NAV gain and another showing a –6.62% NAV decline. The same fund also posted a –21.43% IRR decrease, one of the largest in the portfolio. These shifts may stem from updated private-company valuations, changes in comparable market multiples, slower distributions, or differences in the timing of cash realizations. Venture results often vary widely due to the nature of startup performance and market sentiment, making short-term swings common. For clients, this underscores the importance of diversification across funds, vintages, and sectors to balance risk and opportunity in this high-variance strategy.
+Venture Capital shows more variability than Private Equity, but overall NAV movements remain contained. The gradual softening after Q2 2024 followed by stabilization suggests selective revaluations at the company level, likely tied to funding rounds, market comparables, or shifts in sentiment. Importantly, there is no evidence of broad-based NAV pressure across the VC portfolio.
+
+IRR, however, is the lowest and most volatile among the strategies. It declined through Q3 2024, briefly recovered in Q4, and softened again in Q1 2025. This pattern is typical for Venture Capital, where IRR is highly dependent on the timing of liquidity events. Even when NAV is stable or increasing, IRR can move sharply if exits are delayed or uneven.
+
+Overall takeaway: Stable NAV alongside volatile IRR reflects unrealized value accumulation without corresponding liquidity. VC performance remains dependent on exit timing rather than ongoing valuation changes.
 
 *Link to **Portfolio Performance Data & Analysis Workbook** (Excel) can be found below*
 https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/Private_Markets_Portfolio_Reporting_Q1_2024_to_Q1_2025.xlsx
