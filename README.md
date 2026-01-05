@@ -90,35 +90,35 @@ Overall, sharp IRR declines across funds reflect different underlying issues dep
 ________________________________________
 **Private Equity (PE)**
 
-Private Equity NAV remains remarkably stable, with only small quarter-over-quarter movements. Minor dips and recoveries likely reflect the offsetting effects of realizations, new investments, and routine valuation updates. This stability reinforces Private Equity’s role as a core anchor within the portfolio, supported by mature assets and consistent exit activity.
+Private Equity NAV has stayed very steady, with only small changes from quarter to quarter. Small dips and recoveries likely reflect a mix of asset sales, new investments, and routine valuation updates that offset each other. This stability shows that Private Equity continues to act as a core part of the portfolio, supported by mature investments and regular exit activity.
 
-Private Equity also continues to deliver the highest IRR across all strategies, peaking in Q2 and Q4 2024 before moderating slightly in Q1 2025. The limited volatility in IRR suggests a mature return profile where value creation is being steadily converted into cash. The modest IRR softening in Q1 2025 is most likely related to exit timing rather than any change in underlying performance or asset quality.
+Private Equity also continues to produce the highest IRR among all strategies. IRR peaked in Q2 and Q4 2024 and dipped slightly in Q1 2025. The limited movement in IRR suggests that returns are well established and that value is being steadily turned into cash. The small decline in Q1 2025 is most likely due to the timing of exits rather than any weakening in investment performance or asset quality.
 
-**Overall takeaway:** Flat NAV combined with consistently strong IRR indicates realized performance strength, with quarter-to-quarter changes driven primarily by exit timing rather than valuation risk.
+**Overall takeaway:** Steady NAV and strong IRR indicate solid realized performance, with short-term changes driven mainly by exit timing rather than valuation risk.
 ________________________________________
 **Credit**
 
-Credit NAV trends modestly upward through Q3 2024 before flattening into Q1 2025. This behavior is consistent with an income-oriented strategy, where NAV changes tend to be muted and influenced by spread movements, repayments, and mark-to-market adjustments. The lack of sharp NAV declines suggests that overall credit quality remains intact.
+Credit NAV increased gradually through Q3 2024 and then leveled off into Q1 2025. This pattern fits an income-focused strategy, where NAV typically moves less and is influenced by loan repayments, interest income, and market pricing changes. The absence of sharp NAV declines suggests that overall credit quality remains stable.
 
-IRR shows more quarter-to-quarter movement than NAV, with an increase in Q2 2024, a dip in Q3–Q4, and a rebound in Q1 2025. These fluctuations are likely driven by coupon income timing, repayment schedules, and short-term spread changes, rather than deterioration in borrower fundamentals. In credit strategies, IRR can shift meaningfully even when NAV remains stable.
+IRR moved more from quarter to quarter than NAV, rising in Q2 2024, falling in Q3–Q4, and rebounding in Q1 2025. These changes are likely tied to the timing of interest payments, loan repayments, and short-term pricing changes, rather than problems with borrowers. In credit funds, IRR can shift even when NAV stays flat.
 
-**Overall takeaway:** Flat NAV paired with a moving IRR points to cash-flow timing and income recognition effects, not valuation stress or credit quality issues.
+**Overall takeaway:** Stable NAV with a changing IRR points to timing and income effects, not credit stress or valuation problems.
 ________________________________________
 **Real Estate**
 
-Real Estate continues to represent the largest share of total NAV and remains one of the most stable strategies in the portfolio. The dip in Q2 2024, followed by a gradual recovery into Q4 2024 and a slight pullback in Q1 2025, is consistent with appraisal timing and cap rate adjustments, rather than any deterioration in property operations. The absence of sharp NAV swings suggests that the underlying properties continue to provide a stable value base, even as market pricing assumptions shift quarter to quarter.
+Real Estate continues to make up the largest portion of total NAV and remains one of the most stable strategies. The decline in Q2 2024, followed by a gradual recovery through Q4 and a small pullback in Q1 2025, is consistent with how property values are updated over time rather than with weaker property performance. The lack of sharp NAV swings suggests that the underlying properties continue to hold their value.
 
-IRR trends closely alongside NAV but shows slightly more sensitivity to cash-flow timing. IRRs rose through mid-2024, peaked in Q4, and softened modestly in Q1 2025, which aligns with an income-driven return profile. In real estate, IRR often responds to when rental income or distributions are received, while NAV reflects periodic appraisal updates. The Q1 2025 IRR softening alongside relatively stable NAV suggests timing effects rather than weakening property fundamentals.
+IRR generally moved in the same direction as NAV but was more affected by when cash was received. IRR increased through mid-2024, peaked in Q4, and dipped slightly in Q1 2025. This fits an income-based return profile, where IRR depends more on when rent and distributions are paid, while NAV reflects appraisal updates. The small IRR decline in Q1 2025, alongside stable NAV, points to timing effects rather than weaker property fundamentals.
 
-**Overall takeaway:** Real Estate performance appears stable and supported by steady income. NAV movements are driven mainly by valuation mechanics, while IRR changes reflect cash-flow timing, not structural weakness.
+**Overall takeaway:** Real Estate performance remains stable and supported by steady income, with NAV changes driven by valuation updates and IRR changes driven by cash-flow timing.
 ________________________________________
 **Venture Capital (VC)**
 
-Venture Capital shows more variability than Private Equity, but overall NAV movements remain contained. The gradual softening after Q2 2024 followed by stabilization suggests selective revaluations at the company level, likely tied to funding rounds, market comparables, or shifts in sentiment. Importantly, there is no evidence of broad-based NAV pressure across the VC portfolio.
+Venture Capital shows more movement than Private Equity, but overall NAV changes remain limited. The gradual decline after Q2 2024, followed by stabilization, likely reflects valuation changes at individual companies tied to funding rounds, market comparisons, or shifts in investor sentiment. There is no sign of widespread value declines across the VC portfolio.
 
-IRR, however, is the lowest and most volatile among the strategies. It declined through Q3 2024, briefly recovered in Q4, and softened again in Q1 2025. This pattern is typical for Venture Capital, where IRR is highly dependent on the timing of liquidity events. Even when NAV is stable or increasing, IRR can move sharply if exits are delayed or uneven.
+IRR is the lowest and most volatile among the strategies. It fell through Q3 2024, recovered briefly in Q4, and declined again in Q1 2025. This pattern is common in VC, where IRR is heavily influenced by the timing of exits. Even when NAV is steady or rising, IRR can change sharply if exits are delayed or uneven.
 
-**Overall takeaway:** Stable NAV alongside volatile IRR reflects unrealized value accumulation without corresponding liquidity. VC performance remains dependent on exit timing rather than ongoing valuation changes.
+**Overall takeaway:** Stable NAV with volatile IRR shows that value is building in the portfolio but has not yet been turned into cash. VC performance depends mainly on exit timing rather than short-term valuation changes.
 ________________________________________
 *Link to **Portfolio Performance Data & Analysis Workbook** (Excel) can be found below*
 https://github.com/Andrejones00/PCA_Quarterly_Reporting_Q1_2025/blob/main/Private_Markets_Portfolio_Reporting_Q1_2024_to_Q1_2025.xlsx
